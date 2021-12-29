@@ -171,7 +171,7 @@ def printImmediateFamily(source):
 def printRelativesAtDepths(source):
     distList = [findDistance(source, name) for name in getEveryone()]
 
-    num = [0 for i in range(10)]
+    num = [0 for i in range(15)]
 
     for dist in distList:
         if dist != None:
@@ -311,7 +311,7 @@ addOWeekGroup(["Amanda Yang", "Piper Harris", "Nikit Venishetty", "Steffi Halow"
 addOWeekGroup(["Chris Lee", "Vikram Aggarwal", "Salonee Shah", "Alyson Resnick"], ["Amber Pitre", "Dani Knobloch", "Madhu Venkatesalu", "Andre Wasem", "Can Erdogan", "Truman Archer", "Adam Bobak"])
 addOWeekGroup(["Jae Kim", "Caitlin Simcox", "Jeel Mehta", "Nishant Pradhan"], ["Aaron Lin", "Sini Koivu", "Mabel Tang", "Marc Shen"])
 addOWeekGroup(["Juan Serrano", "Rose Click", "Chris Villareal", "Sam Fowler"], ["Sara Mansfield", "Ashley Noh", "Sophia Prieto", "Jesus Galvan", "Brett Bussey"])
-addOWeekGroup(["Will Ledig", "Esther Choi", "Whitney Jin", "Brandon Chow"], ["Tanuj Prajapati", "Bianca Chen", "Ari Vilker", "Ginnie Okafor", "Alex Eklin", "Luna Cortelezzi", "Jonathan Sheng", "Amanda Dominguez"])
+addOWeekGroup(["Will Ledig", "Esther Choi", "Whitney Jin", "Brandon Chow"], ["Tanuj Prajapati", "Bianca Chen", "Ari Vilker", "Ginnie Okafor", "Alex Elkin", "Luna Cortelezzi", "Jonathan Sheng", "Amanda Dominguez"])
 
 
 #builds familyOf
@@ -328,6 +328,4 @@ for person in getEveryone():
 
 #print(findPath("Alan Tapper", "Kian Robinson"))
 
-#printRelativesAtDepths("Alan Tapper")
-
-printPath("Katie Bablak", "Bianca Chen")
+printRelativesAtDepths("Connor Taylor")
