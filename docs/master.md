@@ -1,12 +1,12 @@
 <html>
 <head>
     <h1>Geneology Calculator</h1>
-    <script type="module" src="main.js"></script>
-    <script type="module" src="geneology.js"></script>
-    <script type="module" src="data.js"></script>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./geneology.js"></script>
+    <script type="module" src="./data.js"></script>
 </head>
 <body>
-    <form action="main.js">
+    <form action="./hanszen-oweek-geneology/main.js">
         <div>
             <input type="radio" id="find-path" name="action" value="find-path">
             <label for="find-path">Find Path</label><br>
