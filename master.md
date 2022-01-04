@@ -24,7 +24,7 @@
         </div>
         <div>
             <label for="button">Submit</label>
-            <button type="button" id="button" onclick="alert('Submitted!')">Click Me!</button>
+            <button type="button" id="button" onclick="alert('Submitted!')">Submit</button>
         </div>
         <datalist id="people">
                 <option value="Internet Explorer"></option>
