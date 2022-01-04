@@ -1,4 +1,4 @@
-//import { findDistance, findPath, getEveryone } from "./geneology.js"
+import { findDistance, findPath, getEveryone } from "./geneology.js"
 
 var action = document.getElementById("action")
 var person1 = document.getElementById("person1name")
