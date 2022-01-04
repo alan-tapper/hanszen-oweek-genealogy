@@ -104,7 +104,7 @@ function getSiblings(source) {
 }
 
 //returns a list of everyone in the tree
-function getEveryone() {
+export function getEveryone() {
     var people = []
     for (let person of Object.keys(parentsOf)) {
         people.push(person)
