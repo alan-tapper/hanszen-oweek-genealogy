@@ -26,11 +26,11 @@
             <input type="submit" id="submit">
         </div>
         <datalist id="people">
-                <option value="Internet Explorer">
-                <option value="Firefox">
-                <option value="Chrome">
-                <option value="Opera">
-                <option value="Safari">
+                <option value="Internet Explorer"></option>
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
         </datalist>
         <br>
     </form>
