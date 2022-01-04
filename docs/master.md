@@ -7,16 +7,22 @@
 <body>
     <form action="">
         <div>
+            <input type="radio" id="find-path" name="action" value="find-path">
+            <label for="find-path">Find Path</label><br>
+            <input type="radio" id="find-distance" name="action" value="find-distance">
+            <label for="find-distance">Find Distance</label><br>
+        </div>
+        <div>
             <label for="person1name">Person 1</label>
             <input type="text" id="person1name" list="people">
         </div>
         <div>
             <label for="person2name">Person 2</label>
-            <input type="text" id="person2name">
+            <input type="text" id="person2name" list="people">
         </div>
         <div>
-            <label for="action">Action</label>
-            <input type="" id="action">
+            <label for="submit">Submit</label>
+            <input type="submit" id="submit">
         </div>
         <datalist id="people">
                 <option value="Internet Explorer">
