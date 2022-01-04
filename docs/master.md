@@ -14,11 +14,11 @@
         </div>
         <div>
             <label for="person1name">Person 1</label>
-            <input type="text" id="person1name" list="people">
+            <input type="text" id="person1name" name="person1name" list="people">
         </div>
         <div>
             <label for="person2name">Person 2</label>
-            <input type="text" id="person2name" list="people">
+            <input type="text" id="person2name" name="person1name" list="people">
         </div>
         <div>
             <label for="submit">Submit</label>
