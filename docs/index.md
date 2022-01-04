@@ -1,3 +1,3 @@
 ## Hanszen O-Week Geneology
 
-[Main page](./main.md)
+[Alt page](./alt.md)
