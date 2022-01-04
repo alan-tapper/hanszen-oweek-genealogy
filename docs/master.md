@@ -6,7 +6,7 @@
     <script type="module" src="../data.js"></script>
 </head>
 <body>
-    <form action="">
+    <form action="../main.js">
         <div>
             <input type="radio" id="find-path" name="action" value="find-path">
             <label for="find-path">Find Path</label><br>
