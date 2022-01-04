@@ -11,6 +11,10 @@
                 <label for="person1name">Person 1</label>
                 <input type="text" id="person1name"></input>
             </div>
+            <div>
+                <label for="person2name">Person 2</label>
+                <input type="text" id="person2name"></input>
+            </div>
         </form>
     </body>
 </html>
