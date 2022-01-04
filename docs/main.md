@@ -1,4 +1,3 @@
 ## Hanszen O-Week Geneology
 
-Features:
-Find the relationship between any two people in the tree
+This is a test to see if this will show up
