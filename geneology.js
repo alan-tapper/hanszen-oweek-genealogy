@@ -1,6 +1,4 @@
-import { data } from "./data.js"
-
-
+import data from "./data.js"
 
 var parentsOf = {}
 
@@ -219,7 +217,7 @@ function BFSMap(source) {
 }
 
 //finds the shortest path from source to name
-function findPath(source, name) {
+export function findPath(source, name) {
     var map = BFSMap(source)
     var path = [name]
     while (path[0] !== source) {
@@ -230,7 +228,7 @@ function findPath(source, name) {
 }
 
 //finds the distance from source to name
-function findDistance(source, name) {
+export function findDistance(source, name) {
     var map = BFSMap(source)
     return map[name][0]
 }
