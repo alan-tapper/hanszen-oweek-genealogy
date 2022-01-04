@@ -6,12 +6,13 @@
     <script type="module" src="./data.js"></script>
 </head>
 <body>
-    <form action="./hanszen-oweek-geneology/main.js">
+    <form>
         <div>
-            <input type="radio" id="find-path" name="action" value="find-path">
-            <label for="find-path">Find Path</label><br>
-            <input type="radio" id="find-distance" name="action" value="find-distance">
-            <label for="find-distance">Find Distance</label><br>
+            <label>Action</label>
+            <select name="action" id="action">
+                <option id="find-path" value="find-path">Find Path</option>
+                <option id="find-distance" value="find-distance">Find Distance</option>
+            </select>
         </div>
         <div>
             <label for="person1name">Person 1</label>
@@ -32,7 +33,6 @@
                 <option value="Opera"></option>
                 <option value="Safari"></option>
         </datalist>
-        <br>
     </form>
 </body>
 </html>
