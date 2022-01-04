@@ -31,6 +31,7 @@
                 <option value="Opera">
                 <option value="Safari">
         </datalist>
+        <br>
     </form>
 </body>
 
