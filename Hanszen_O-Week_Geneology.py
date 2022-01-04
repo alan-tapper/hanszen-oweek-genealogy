@@ -167,7 +167,7 @@ def printImmediateFamily(source):
     print(siblingString)
     print(coString)
 
-#prints relatives at every depth
+#prints the number of relatives at every depth
 def printRelativesAtDepths(source):
     distList = [findDistance(source, name) for name in getEveryone()]
 
@@ -193,7 +193,6 @@ def printNumRelatives(source, depth):
 
 #finds the relation between name and source
 def findRelation(name, source):
-    #immediate relation
     if source in parentsOf.keys() and name in parentsOf[source]:
         return "Parent"
 
@@ -207,7 +206,6 @@ def findRelation(name, source):
         if (source in advisingTeam) and (name in advisingTeam):
             return "Advised Together"
 
-    #return "No close relation
 
 #returns the distances of everyone and their predecessor from the point of view of source
 def BFSMap(source):
@@ -298,11 +296,11 @@ addOWeekGroup(["Amy Lin", "Michelle Martinez", "Izzi Karohl", "Daniel Rothfusz"]
 addOWeekGroup(["Tre Henson", "Dani Knobloch", "Saniya Gayake", "Ben Burstain"], ["Spencer Darwall", "Ryan Mbuashu-Ndip", "Ridhi Gari", "Makayla Brown"])
 addOWeekGroup(["Piper Harris", "Anthony Guzzo", "Steven Feng", "Sanjana Krishnan"], ["Andrew Bare", "Jaime Tellez", "Dylan DuCharme", "Colin Lawrence", "Margaret Li", "Elena Carmichael", "Carly Ngo", "Jessica Suh"])
 addOWeekGroup(["Juan Serrano", "Lauren Ivory", "Julie Street", "Bianca Chen"], ["Jessica Opsahl-Ong", "Andrew Murray", "Ryan Babe", "Albert Wan", "Tiffany Tang", "Santi Parra-Vargas", "Jose Acuna Valenzuela", "Kaylah Cantu", "Chuk Uzowihe"])
-addOWeekGroup(["Vivian Wong", "Ginnie Okafor", "Felix Desimoni", "Bhavana Kunisetty"], ["ns3"])
+addOWeekGroup(["Vivian Wong", "Ginnie Okafor", "Felix Desimoni", "Bhavana Kunisetty"], [""])
 addOWeekGroup(["Rose Click", "Tanuj Prajapati", "Armando Amigon", "Soha Rizvi"], ["Isabelle Williams", "Natalie Pellette", "Izzi Childers", "Shaun Kerry"])
 addOWeekGroup(["Lila Frenkel", "Kourtney Kanja", "Bert Odinet", "Makayla Franco"], ["Sarah Kim", "Maggie Han", "Robert Heeter", "Eric Savarese", "Fred Bush", "Khondker Salim", "Ebube Ukabiala"])
 addOWeekGroup(["Eric Torres", "Matthew Brun", "Emily Chang", "Nana Mensah-Bosu"], ["Ricardo Robles", "Adam Cohen", "Daniel Cho", "Bruce Xu", "Valerie Elizondo"])
-addOWeekGroup(["Shawn Zheng", "Hannah Meeks", "Lexi Ellerbe", "George Liu"], ["ns7"])
+addOWeekGroup(["Shawn Zheng", "Hannah Meeks", "Lexi Ellerbe", "George Liu"], [""])
 
 #2019 O-Week Groups
 addOWeekGroup(["Matthew Brun", "Lisa Shi", "Hannah Vincent", "Andrew Abhikhaled"], ["Katie Bablak", "Kourtney Kanja", "Jesus Galvan", "Kieren Boyd", "Tara Simpson-Sullivan", "Roscoe Bussell", "Bill Qian", "Juan Rubio"])
@@ -328,4 +326,6 @@ for person in getEveryone():
 
 #print(findPath("Alan Tapper", "Kian Robinson"))
 
-printRelativesAtDepths("Connor Taylor")
+#printRelativesAtDepths("Connor Taylor")
+
+print(BFSMap("Alan Tapper"))
