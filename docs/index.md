@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/alan-tapper/hanszen-oweek-
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[Main page](/docs/main.md)
+[Main page](main.md)
 
 ### Markdown
 
