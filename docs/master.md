@@ -23,8 +23,8 @@
             <input type="text" id="person2name" name="person2name" list="people">
         </div>
         <div>
-            <label for="submit">Submit</label>
-            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+            <label for="button">Submit</label>
+            <button type="button" id="button" onclick="alert('Hello World!')">Click Me!</button>
         </div>
         <datalist id="people">
                 <option value="Internet Explorer"></option>
