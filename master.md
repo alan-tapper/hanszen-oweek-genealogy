@@ -35,6 +35,8 @@
                 <option value="Safari"></option>
         </datalist>
     </form>
+    <p id="person1display">Person1</p>
+    <p id="person2display">Person2</p>
 </body>
 </html>
 
