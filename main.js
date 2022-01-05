@@ -4,8 +4,8 @@ var peopleList = document.getElementById("people")
 
 
 var action = document.getElementById("action").value
-var person1 = document.getElementByName("person1name").value
-var person2 = document.getElementByName("person2name").value
+var person1 = document.getElementsByName("person1name").value
+var person2 = document.getElementsByName("person2name").value
 var submit = document.getElementById("submit")
 
 submit.onclick = doStuff()
