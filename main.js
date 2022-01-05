@@ -11,5 +11,10 @@ var submit = document.getElementById("button")
 submit.onclick = doStuff()
 
 function doStuff() {
-    console.log(action, person1, person2, submit)
+    console.log(action)
+    console.log(person1)
+    console.log(person2)
+    console.log("Pressed")
+    document.getElementById("person1display").innerHTML = "Nothing1"
+    document.getElementById("person2display").innerHTML = "Nothing2"
 }
