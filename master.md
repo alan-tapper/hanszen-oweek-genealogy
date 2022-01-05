@@ -25,8 +25,7 @@
             <input type="text" id="person2name" name="person2name" list="people">
         </div>
         <div>
-            <label for="button">Submit</label>
-            <button type="button" id="button" onclick="doStuff()">Submit</button>
+            <button type="button" id="button">Submit</button>
         </div>
         <datalist id="people">
                 <option value="Internet Explorer"></option>
@@ -37,14 +36,6 @@
         </datalist>
     </form>
 </body>
-<script>
-console.log(person1name)
-function doStuff() {
-    console.log(action)
-    console.log(person1)
-    console.log(person2)
-}
-</script>
 </html>
 
 [Back to main page](./index.md)
