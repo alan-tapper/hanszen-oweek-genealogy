@@ -17,4 +17,7 @@ function doStuff() {
     console.log("Pressed")
     document.getElementById("person1display").innerHTML = "Nothing1"
     document.getElementById("person2display").innerHTML = "Nothing2"
+    console.log(findPath("Alan Tapper", "Kian Robinson"))
 }
+
+console.log(findPath("Alan Tapper", "Kian Robinson"))
