@@ -8,8 +8,6 @@ var person1 = document.getElementsByName("person1name").value
 var person2 = document.getElementsByName("person2name").value
 var submit = document.getElementById("submit")
 
-submit.onclick = doStuff()
-
 function doStuff() {
     console.log(action)
     console.log(person1)
