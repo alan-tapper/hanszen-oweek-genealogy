@@ -34,9 +34,10 @@
                 <option value="Safari"></option>
         </datalist>
     </form>
-    <p id="person1display">Person1</p>
-    <p id="person2display">Person2</p>
-    <script>doStuff()</script>
+    <p id="person1display" disabled></p>
+    <p id="person2display" disabled></p>
+    <p id="actiondisplay" disabled></p>
+    <p id="pathdisplay" disabled></p>
 </body>
 </html>
 
