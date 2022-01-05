@@ -36,6 +36,7 @@
     </form>
     <p id="person1display">Person1</p>
     <p id="person2display">Person2</p>
+    <script>doStuff()</script>
 </body>
 </html>
 
