@@ -26,7 +26,7 @@
         </div>
         <div>
             <label for="button">Submit</label>
-            <button type="button" id="button" onclick="alert(person1name)">Submit</button>
+            <button type="button" id="button" onclick=doStuff()>Submit</button>
         </div>
         <datalist id="people">
                 <option value="Internet Explorer"></option>
@@ -38,7 +38,12 @@
     </form>
 </body>
 <script>
-console.log("hello")
+console.log(person1name)
+function doStuff() {
+    console.log(action)
+    console.log(person1)
+    console.log(person2)
+}
 </script>
 </html>
 
