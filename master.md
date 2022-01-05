@@ -1,7 +1,7 @@
 <html>
 <head>
     <h1>Geneology Calculator</h1>
-    <script type="module" src="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
     <!--
     <script type="module" src="geneology.js"></script>
     -->
