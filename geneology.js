@@ -1,4 +1,5 @@
-import data from "./data.js"
+
+import data from "./data"
 
 var parentsOf = {}
 
@@ -233,4 +234,4 @@ export function findDistance(source, name) {
     return map[name][0]
 }
 
-console.log(findDistance("Alan Tapper", ""))
+//console.log(findDistance("Alan Tapper", ""))

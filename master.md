@@ -1,9 +1,11 @@
 <html>
 <head>
     <h1>Geneology Calculator</h1>
+    <!--
     <script type="module" src="main.js"></script>
     <script type="module" src="geneology.js"></script>
     <script type="module" src="data.js"></script>
+    -->
 </head>
 <body>
     <form>
@@ -35,6 +37,18 @@
         </datalist>
     </form>
 </body>
+<script>
+var action = document.getElementById("action")
+var person1 = document.getElementById("person1name")
+var person2 = document.getElementById("person2name")
+var button = document.getElementById("button")
+button.addEventListener("click", doStuff)
+function doStuff() {
+    console.log(action)
+    console.log(person1)
+    console.log(person2)
+}
+</script>
 </html>
 
 [Back to main page](./index.md)
