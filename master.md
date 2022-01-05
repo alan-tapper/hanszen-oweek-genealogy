@@ -26,7 +26,7 @@
         </div>
         <div>
             <label for="button">Submit</label>
-            <button type="button" id="button" onclick="alert('Submitted!')">Submit</button>
+            <button type="button" id="button" onclick="alert(person1name)">Submit</button>
         </div>
         <datalist id="people">
                 <option value="Internet Explorer"></option>
@@ -38,16 +38,7 @@
     </form>
 </body>
 <script>
-var action = document.getElementById("action")
-var person1 = document.getElementById("person1name")
-var person2 = document.getElementById("person2name")
-var button = document.getElementById("button")
-button.addEventListener("click", doStuff)
-function doStuff() {
-    console.log(action)
-    console.log(person1)
-    console.log(person2)
-}
+console.log("hello")
 </script>
 </html>
 
