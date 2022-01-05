@@ -273,4 +273,4 @@ export function findDistance(source, name) {
     return map[name][0]
 }
 
-console.log(findDistance("Alan Tapper", ""))
+console.log(findPath("Alan Tapper", "Kian Robinson"))

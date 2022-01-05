@@ -12,8 +12,8 @@
         <div>
             <label>Action</label>
             <select name="action" id="action">
-                <option id="find-path" value="find-path">Find Path</option>
                 <option id="find-distance" value="find-distance">Find Distance</option>
+                <option id="find-path" value="find-path">Find Path</option>
             </select>
         </div>
         <div>
