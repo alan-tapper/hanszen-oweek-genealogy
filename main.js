@@ -29,4 +29,4 @@ function doStuff() {
     document.getElementById("pathdisplay").disabled = false
 }
 
-console.log(findPath("Alan Tapper", "Kian Robinson"))
+//console.log(findPath("Alan Tapper", "Kian Robinson"))
