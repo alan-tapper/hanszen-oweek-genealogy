@@ -22,6 +22,7 @@
         <div>
             <button type="button" onclick="doStuff()">Submit</button>
             <script>
+                import * as Geneology from "./geneology.js"
                 function doStuff() {
                     var action = document.getElementById("action").value
                     var person1 = document.getElementById("person1name").value
@@ -29,10 +30,9 @@
                     console.log([action, person1, person2])
                     document.getElementById("testdisplay").innerHTML = action + " from " + person1 + " to " + person2
                     document.getElementById("testdisplay").disabled = false
-                    document.getElementById("pathdisplay").innerHTML = findDistance(person1, person2)
+                    document.getElementById("pathdisplay").innerHTML = Geneology.findDistance(person1, person2)
                 }
             </script>
-            <script type="module" src="./geneology.js"></script>
         </div>
         <datalist id="people">
                 <option value="Alan Tapper"></option>
