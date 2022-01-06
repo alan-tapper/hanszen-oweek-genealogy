@@ -1,10 +1,7 @@
 <html>
 <head>
     <h1>Geneology Calculator</h1>
-    <!--
-    <script type="tmodule" src="main.js"></script>
     <script type="module" src="geneology.js"></script>
-    -->
 </head>
 <body>
     <form>
@@ -31,22 +28,21 @@
                     var person1 = document.getElementById("person1name").value
                     var person2 = document.getElementById("person2name").value
                     console.log([action, person1, person2])
-                    document.getElementById("person1display").innerHTML = action + " from " + person1 + " to " + person2
-                    document.getElementById("person1display").disabled = false
+                    document.getElementById("testdisplay").innerHTML = action + " from " + person1 + " to " + person2
+                    document.getElementById("testdisplay").disabled = false
+                    document.getElementById("pathdisplay").innerHTML = findDistance(person1, person2)
                 }
             </script>
         </div>
         <datalist id="people">
-                <option value="Internet Explorer"></option>
-                <option value="Firefox"></option>
-                <option value="Chrome"></option>
-                <option value="Opera"></option>
-                <option value="Safari"></option>
+                <option value="Alan Tapper"></option>
+                <option value="Brian Lee"></option>
+                <option value="Katie Bablak"></option>
+                <option value="Kian Robinson"></option>
+                <option value="Arnav Burudgunte"></option>
         </datalist>
     </form>
-    <p id="person1display" disabled></p>
-    <p id="person2display" disabled></p>
-    <p id="actiondisplay" disabled></p>
+    <p id="testdisplay" disabled></p>
     <p id="pathdisplay" disabled></p>
 </body>
 </html>
