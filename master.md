@@ -1,8 +1,8 @@
 <html>
 <head>
     <h1>Geneology Calculator</h1>
-    <script type="text/javascript" src="main.js"></script>
     <!--
+    <script type="tmodule" src="main.js"></script>
     <script type="module" src="geneology.js"></script>
     -->
 </head>
@@ -24,7 +24,17 @@
             <input type="text" id="person2name" name="person2name" list="people">
         </div>
         <div>
-            <button type="button" onclick="doStuff();">Submit</button>
+            <button type="button" onclick="doStuff()">Submit</button>
+            <script>
+                function doStuff() {
+                    var action = document.getElementById("action").value
+                    var person1 = document.getElementById("person1name").value
+                    var person2 = document.getElementById("person2name").value
+                    console.log([action, person1, person2])
+                    document.getElementById("person1display").innerHTML = action + " from " + person1 + " to " + person2
+                    document.getElementById("person1display").disabled = false
+                }
+            </script>
         </div>
         <datalist id="people">
                 <option value="Internet Explorer"></option>
