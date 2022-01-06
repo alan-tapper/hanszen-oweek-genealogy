@@ -29,7 +29,7 @@
                     console.log([action, person1, person2])
                     document.getElementById("testdisplay").innerHTML = action + " from " + person1 + " to " + person2
                     document.getElementById("testdisplay").disabled = false
-                    document.getElementById("pathdisplay").innerHTML = Geneology.findDistance(person1, person2)
+                    document.getElementById("pathdisplay").innerHTML = findDistance(person1, person2)
                 }
                 var data = [
     //2021 O-Week Groups
