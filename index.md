@@ -3,6 +3,7 @@
     <h1>Geneology Calculator</h1>
 </head>
 <body>
+<p>This site enables you to find the distance and path between two people in the tree through O-Week families.</p>
     <form>
         <div>
             <label>Action</label>
