@@ -156,7 +156,7 @@ function getSiblings(source) {
     return toReturn
 }
 //returns a list of everyone in the tree
-export function getEveryone() {
+function getEveryone() {
     var people = []
     for (let person of Object.keys(parentsOf)) {
         people.push(person)
@@ -242,7 +242,7 @@ function BFSMap(source) {
     return toReturn
 }
 //finds the shortest path from source to name
-export function findPath(source, name) {
+function findPath(source, name) {
     var map = BFSMap(source)
     var path = [name]
     while (path[0] !== source) {
@@ -251,7 +251,7 @@ export function findPath(source, name) {
     return path
 }
 //finds the distance from source to name
-export function findDistance(source, name) {
+function findDistance(source, name) {
     var map = BFSMap(source)
     return map[name][0]
 }
