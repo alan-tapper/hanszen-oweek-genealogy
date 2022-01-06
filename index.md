@@ -27,8 +27,9 @@
                     var person1 = document.getElementById("person1name").value
                     var person2 = document.getElementById("person2name").value
                     console.log([action, person1, person2])
-                    document.getElementById("testdisplay").innerHTML = action + " from " + person1 + " to " + person2
+                    //document.getElementById("testdisplay").innerHTML = action + " from " + person1 + " to " + person2
                     //document.getElementById("testdisplay").disabled = false
+                    sortList()
                     if (action === "find-distance") {
                         if (person1 !== "" && person2 !== "") {
                             document.getElementById("pathdisplay").innerHTML = findDistance(person1, person2)
