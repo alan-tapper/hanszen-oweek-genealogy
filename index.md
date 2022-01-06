@@ -28,8 +28,17 @@
                     var person2 = document.getElementById("person2name").value
                     console.log([action, person1, person2])
                     document.getElementById("testdisplay").innerHTML = action + " from " + person1 + " to " + person2
-                    document.getElementById("testdisplay").disabled = false
-                    document.getElementById("pathdisplay").innerHTML = findDistance(person1, person2)
+                    //document.getElementById("testdisplay").disabled = false
+                    if (action === "find-distance") {
+                        if (person1 !== "" && person2 !== "") {
+                            document.getElementById("pathdisplay").innerHTML = findDistance(person1, person2)
+                        }
+                    }
+                    if (action === "find-path") {
+                        if (person1 !== "" && person2 !== "") {
+                            document.getElementById("pathdisplay").innerHTML = printPath(person1, person2)
+                        }
+                    }
                 }
                 var data = [
     //2021 O-Week Groups
@@ -249,6 +258,15 @@ function findPath(source, name) {
         path.unshift(map[path[0]][1])
     }
     return path
+}
+//website-friendly findPath
+function printPath(source, name) {
+    var path = findPath(source, name)
+    var toReturn = ""
+    for (let person of path) {
+        toReturn += person + ", "
+    }
+    return toReturn.slice(0, toReturn.length - 2)
 }
 //finds the distance from source to name
 function findDistance(source, name) {
