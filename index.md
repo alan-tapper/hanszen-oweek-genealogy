@@ -621,7 +621,6 @@ function sortList() {
 <option value="Brandon Chow"></option>
         </datalist>
     </form>
-    <p id="testdisplay" disabled></p>
     <p id="pathdisplay" disabled></p>
 </body>
 </html>
