@@ -24,7 +24,7 @@
             <input type="text" id="person2name" name="person2name" list="people">
         </div>
         <div>
-            <button type="button" onclick=doStuff()>Submit</button>
+            <button type="button" onclick="doStuff();">Submit</button>
         </div>
         <datalist id="people">
                 <option value="Internet Explorer"></option>
