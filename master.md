@@ -1,7 +1,6 @@
 <html>
 <head>
     <h1>Geneology Calculator</h1>
-    <script type="module" src="geneology.js"></script>
 </head>
 <body>
     <form>
@@ -33,6 +32,7 @@
                     document.getElementById("pathdisplay").innerHTML = findDistance(person1, person2)
                 }
             </script>
+            <script type="module" src="./geneology.js"></script>
         </div>
         <datalist id="people">
                 <option value="Alan Tapper"></option>
