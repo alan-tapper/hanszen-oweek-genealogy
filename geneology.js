@@ -273,7 +273,9 @@ export function findDistance(source, name) {
     return map[name][0]
 }
 
-for (let person of getEveryone()) {
+var e = getEveryone().sort()
+console.log(e)
+for (let person of e) {
     console.log("<option value=\"" + person + "\"></option>")
 }
 
