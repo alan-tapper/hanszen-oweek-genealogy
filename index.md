@@ -3,13 +3,22 @@
     <h1>Geneology Calculator</h1>
 </head>
 <body>
-<p>This site enables you to find the distance and path between two people in the tree through O-Week families.</p>
+<p>This site enables you to find the distance and path between two people in the tree through O-Week families.
+<br><br>
+Find Distance: Finds the length of the shortest path through the network from Person 1 to Person 2.
+<br><br>
+Find Path: Finds the shortest path as in Find Distance, but instead displays the people the path traverses and their relationships.
+<br><br>
+Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.
+</p>
+<h4>Note: I do <em>not</em> have everyone in Hanszen in the network. If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect. Thanks for helping to expand the network!</h4>
     <form>
         <div>
             <label>Action</label>
             <select name="action" id="action">
                 <option id="find-distance" value="find-distance">Find Distance</option>
                 <option id="find-path" value="find-path">Find Path</option>
+                <option id="explore-tree" value="explore-tree">Explore Tree</option>
             </select>
         </div>
         <div>
@@ -38,6 +47,9 @@
                             document.getElementById("pathdisplay").innerHTML = printPath(person1, person2)
                         }
                     }
+                    if (person1 !== "" && action === "explore-tree") {
+                    	document.getElementById("explore").innerHTML = explore(person1)
+                    } 
                 }
                 var data = [
     //2021 O-Week Groups
@@ -286,37 +298,36 @@ function findDistance(source, name) {
     var map = BFSMap(source)
     return map[name][0]
 }
-//sorts the datalist in alphabetical order
-function sortList() {
-  var list, i, switching, b, shouldSwitch;
-  list = document.getElementById("people");
-  switching = true;
-  /* Make a loop that will continue until
-  no switching has been done: */
-  while (switching) {
-    // Start by saying: no switching is done:
-    switching = false;
-    b = list.getElementsByTagName("option");
-    // Loop through all list items:
-    for (i = 0; i < (b.length - 1); i++) {
-      // Start by saying there should be no switching:
-      shouldSwitch = false;
-      /* Check if the next item should
-      switch place with the current item: */
-      if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
-        /* If next item is alphabetically lower than current item,
-        mark as a switch and break the loop: */
-        shouldSwitch = true;
-        break;
-      }
-    }
-    if (shouldSwitch) {
-      /* If a switch has been marked, make the switch
-      and mark the switch as done: */
-      b[i].parentNode.insertBefore(b[i + 1], b[i]);
-      switching = true;
+//displays person1 and their immediate family
+function explore(person1) {
+	var toReturn = "Looking at: " + person1
+  if (getParents(person1).length) {
+  	toReturn += "<br><br>Parents:"
+  	for (let parent of getParents(person1)) {
+  		toReturn += "<br>" + parent
+  	}
+  }
+  if (getChildren(person1).length && getChildren(person1)[0]) {
+  	toReturn += "<br><br>Children:"
+  	for (let child of getChildren(person1)) {
+  		if (child) {
+   			toReturn += "<br>" + child
+    	}
     }
   }
+  if (getSiblings(person1).length) {
+    toReturn += "<br><br>Siblings:"
+    for (let sibling of getSiblings(person1)) {
+      toReturn += "<br>" + sibling
+    }
+  }
+  if (getCos(person1).length) {
+    toReturn += "<br><br>Cos:"
+    for (let co of getCos(person1)) {
+      toReturn += "<br>" + co
+    }
+  }
+  return toReturn
 }
             </script>
         </div>
@@ -634,5 +645,6 @@ function sortList() {
         </datalist>
     </form>
     <p id="pathdisplay" disabled></p>
+    <p id="explore" disabled></p>
 </body>
 </html>

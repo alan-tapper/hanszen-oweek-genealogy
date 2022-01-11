@@ -274,8 +274,10 @@ export function findDistance(source, name) {
 }
 
 var e = getEveryone().sort()
-console.log(e)
+//console.log(e)
 for (let person of e) {
-    console.log("<option value=\"" + person + "\"></option>")
+    //console.log("<option value=\"" + person + "\"></option>")
 }
 
+
+console.log(printImmediateFamily("George Liu"))
