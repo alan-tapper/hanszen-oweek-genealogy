@@ -5,13 +5,11 @@
 <body>
 <p>This site enables you to find the distance and path between two people in the tree through O-Week families.
 <br><br>
-Find Distance: Finds the length of the shortest path through the network from Person 1 to Person 2.
-<br><br>
-Find Path: Finds the shortest path as in Find Distance, but instead displays the people the path traverses and their relationships.
+Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
 <br><br>
 Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.
 </p>
-<h5>Note: I do <em>not</em> have everyone in Hanszen in the network. If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!</h5>
+<h6>Note: I do <strong>not</strong> have everyone in Hanszen in the network. If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!</h6>
     <form>
         <div>
             <label>Action</label>
@@ -38,13 +36,8 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
                     console.log([action, person1, person2])
                     //document.getElementById("testdisplay").innerHTML = action + " from " + person1 + " to " + person2
                     //document.getElementById("testdisplay").disabled = false
-                    if (person1 !== "" && person2 !== "") {
-                        if (action === "find-distance") {
-                            document.getElementById("pathdisplay").innerHTML = findDistance(person1, person2)
-                        }
-                        if (action === "find-path") {
-                            document.getElementById("pathdisplay").innerHTML = printPath(person1, person2)
-                        }
+                    if (person1 !== "" && person2 !== "" && action === "find-path") {
+                        document.getElementById("pathdisplay").innerHTML = printPath(person1, person2)
                     }
                     if (person1 !== "" && action === "explore-tree") {
                     	document.getElementById("explore").innerHTML = explore(person1)
@@ -290,6 +283,7 @@ function printPath(source, name) {
         }
         toReturn += relText + "<br>"
     }
+    toReturn += "Path length: " + path.length
     return toReturn
 }
 //finds the distance from source to name
