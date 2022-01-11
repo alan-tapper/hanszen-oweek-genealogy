@@ -258,12 +258,26 @@ function findPath(source, name) {
     }
     return path
 }
-//website-friendly findPath
+//web-friendly path printer
 function printPath(source, name) {
     var path = findPath(source, name)
     var toReturn = ""
-    for (let person of path) {
-        toReturn += person + ", "
+    for (let i = 0; i < path.length - 1; i++) {
+        var relation = findRelation(path[i], path[i + 1])
+        var relText = ""
+        if (relation === "Parent") {
+        	relText = path[i] + " is " + path[i + 1] + "'s child"
+        }
+        if (relation === "Child") {
+        	relText = path[i] + " is " + path[i + 1] + "'s parent"
+        }
+        if (relation === "Sibling") {
+        	relText = path[i] + " is " + path[i + 1] + "'s sibling"
+        }
+        if (relation === "Co") {
+        	relText = path[i] + " is " + path[i + 1] + "'s co"
+        }
+        toReturn += relText + "<br>"
     }
     return toReturn.slice(0, toReturn.length - 2)
 }
