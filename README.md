@@ -1,6 +1,6 @@
 https://alan-tapper.github.io/hanszen-oweek-geneology
 
-The Hanszen O-Week Geneology Project aims to document the complex family tree of O-Week families at Hanszen.
+The Hanszen O-Week Geneology Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University.
 
 This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen "family tree" is not a tree.
 
