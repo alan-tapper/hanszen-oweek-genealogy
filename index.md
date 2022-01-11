@@ -16,7 +16,6 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
         <div>
             <label>Action</label>
             <select name="action" id="action">
-                <option id="find-distance" value="find-distance">Find Distance</option>
                 <option id="find-path" value="find-path">Find Path</option>
                 <option id="explore-tree" value="explore-tree">Explore Tree</option>
             </select>
@@ -291,7 +290,7 @@ function printPath(source, name) {
         }
         toReturn += relText + "<br>"
     }
-    return toReturn.slice(0, toReturn.length - 2)
+    return toReturn
 }
 //finds the distance from source to name
 function findDistance(source, name) {
