@@ -266,10 +266,10 @@ function printPath(source, name) {
         var relation = findRelation(path[i], path[i + 1])
         var relText = ""
         if (relation === "Parent") {
-        	relText = path[i] + " is " + path[i + 1] + "'s child"
+        	relText = path[i] + " is " + path[i + 1] + "'s parent"
         }
         if (relation === "Child") {
-        	relText = path[i] + " is " + path[i + 1] + "'s parent"
+        	relText = path[i] + " is " + path[i + 1] + "'s child"
         }
         if (relation === "Sibling") {
         	relText = path[i] + " is " + path[i + 1] + "'s sibling"
