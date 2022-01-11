@@ -215,7 +215,7 @@ function findRelation(name, source) {
     }
     for (let co of getCos(source)) {
         if (name === co) {
-            return "Advised Together"
+            return "Co"
         }
     }
 }
