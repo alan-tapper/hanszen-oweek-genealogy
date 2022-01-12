@@ -304,12 +304,30 @@ function findDistance(source, name) {
     var path = findPath(source, name)
     return path.length - 1
 }
+//displays the descendants of person1
+function getDescendants(person1) {
+    var descendants = []
+    for (let child of getChildren(person1)) {
+    	descendants.push(child)
+      for (let grandchild of getDescendants(child)) {
+      	descendants.push(grandchild)
+        for (let greatgrandchild of getDescendants(grandchild)) {
+       		descendants.push(greatgrandchild)
+          for (let great2grandchild of getDescendants(greatgrandchild)) {
+       			descendants.push(great2grandchild)
+       		}
+       	}
+    	}
+    }
+    return descendants
+}
 //displays person1 and their immediate family
 function explore(person1) {
-	var toReturn = ""
-    toReturn += "Looking at: " + person1
+	var toReturn = "Looking at: " + person1
     toReturn += "<br>Immediate connections: " + getImmediateFamily(person1).length
-    //toReturn += "<br>Average distance to everyone else: " + avgDistance(person1)
+    if (getDescendants(person1).length) {
+    	toReturn += "<br>Descendants: " + getDescendants(person1).length
+    }
   if (getParents(person1).length) {
   	toReturn += "<br><br>Parents:"
   	for (let parent of getParents(person1)) {
