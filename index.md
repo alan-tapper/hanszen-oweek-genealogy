@@ -191,10 +191,17 @@ function getEveryone() {
 function getImmediateFamily(source) {
     return getChildren(source).concat(getParents(source), getCos(source), getSiblings(source))
 }
-//returns a list of everyone related to source in depth or less steps
-//returns the average distance from everyone in tne network
+//returns the average distance from everyone in the network
+function avgDistance(source) {
+    var sum = 0
+    var people = 0
+    for (let person of getEveryone()) {
+        sum += findDistance(source, person)
+        people += 1
+    }
+    return sum / people
+}
 //print functions
-//prints everyone
 //prints the immediate family of source
 function printImmediateFamily(source) {
     for (let i of getImmediateFamily(source).values()) {
@@ -294,12 +301,15 @@ function printPath(source, name) {
 }
 //finds the distance from source to name
 function findDistance(source, name) {
-    var map = BFSMap(source)
-    return map[name][0]
+    var path = findPath(source, name)
+    return path.length - 1
 }
 //displays person1 and their immediate family
 function explore(person1) {
-	var toReturn = "Looking at: " + person1
+	var toReturn = ""
+    toReturn += "Looking at: " + person1
+    toReturn += "<br>Immediate connections: " + getImmediateFamily(person1).length
+    //toReturn += "<br>Average distance to everyone else: " + avgDistance(person1)
   if (getParents(person1).length) {
   	toReturn += "<br><br>Parents:"
   	for (let parent of getParents(person1)) {
