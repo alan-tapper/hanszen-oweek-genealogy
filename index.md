@@ -639,5 +639,6 @@ function explore(person1) {
     </form>
     <p id="pathdisplay" disabled></p>
     <p id="explore" disabled></p>
+    <a href="./info.md">Read more about the project!</a>
 </body>
 </html>
