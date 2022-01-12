@@ -49,7 +49,7 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
     [["Katie Bablak", "Hope Moustakakis", "Anushka Agrawal", "John Cook"], ["Nitin Reganti", "Warren Rose", "Laura Yee", "Karen Marquez", "Adara Toran", "Aryana Suhartono", "Darius Huang", "Emerson Coronel", "Mark Lopatofsky", "Esha Patel"]],
     [["Marc Armena", "Grace Kneidel", "Khondker Salim", "Charlotte Cohen"], ["Natalie Byron", "Ava White", "Vy Luu", "Priya Tirumala", "David Kurp", "Daniel Stulski", "Taeho Choe", "Kausar Alkaderi", "Ai Bunchatheravate"]],
     [["Julia Englehardt", "Anthony Guzzo", "Corey Donovan", "Sini Koivu"], ["Emily Pena", "Ellie Cha", "Darcey Lonsdale", "Nayna Nambiar", "Sara Price", "Joseph Flores", "Sam Sarver", "Suraj Chandramouli", "Noah Hight"]],
-    [["Gia Braddock", "Daniel Rothfusz", "Dylan DuCharme", "Mabel Tang"], ["Maddy Garrity", "Bella Bartos", "Adi Zytek", "Michelle Fox", "Yuin Lu", "Peter Reynolds", "Joseph Liu", "Liam Waite", "Ammar Siddiqi", "Brian Seo"]],
+    [["Gia Braddock", "Daniel Rothfusz", "Dylan DuCharme", "Mabel Tang"], ["Maddy Garrity", "Bella Bartos", "Adi Zytek", "Michelle Fox", "Yulin Lu", "Peter Reynolds", "Joseph Liu", "Liam Waite", "Ammar Siddiqi", "Brian Seo"]],
     [["Ben Murdoch", "Aaron Lin", "Sarah Kim", "Victoria Johns"], ["Crystal Unegbu", "Danika Li", "Daniela Covarrubias", "Lauren Hu", "Thara Venkateswaran", "Emery Engling", "Jonathan Seyoum", "Zarek Lu", "Arturo Rodriguez Lopez", "James Belanger"]],
     [["Sadie Siegel", "Madhu Venkatesalu", "Jarrett Prchal", "Arvind Ramesh"], ["Sarah Davidson", "Whitney Ball", "Jo Harikrishna", "Genesis Hahn", "Riya Pagilla", "Marcus Williams", "Lucas Newman", "Jordan Contreras", "Nikhil Samudrala", "Ken Chen"]],
     [["Temi Dada", "Alp Yakici", "Ridhi Gari", "Andrew Li"], ["Stephanie Agu", "Leora Maksoud", "Basma Bedawi", "Kaylah Patel", "Jiwon Han", "Brian Baskin", "Shihab Ahmed", "Kai Cowin", "Hari Gotluru", "Bill Nguyen"]],
@@ -65,19 +65,24 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
     [["Tre Henson", "Dani Knobloch", "Saniya Gayake", "Ben Burstain"], ["Spencer Darwall", "Ryan Mbuashu-Ndip", "Ridhi Gari", "Makayla Brown"]],
     [["Piper Harris", "Anthony Guzzo", "Steven Feng", "Sanjana Krishnan"], ["Andrew Bare", "Jaime Tellez", "Dylan DuCharme", "Colin Lawrence", "Margaret Li", "Elena Carmichael", "Carly Ngo", "Jessica Suh"]],
     [["Juan Serrano", "Lauren Ivory", "Julie Street", "Bianca Chen"], ["Jessica Opsahl-Ong", "Andrew Murray", "Ryan Babe", "Albert Wan", "Tiffany Tang", "Santi Parra-Vargas", "Jose Acuna Valenzuela", "Kaylah Cantu", "Chuk Uzowihe"]],
-    [["Vivian Wong", "Ginnie Okafor", "Felix Desimoni", "Bhavana Kunisetty"], [""]],
+    [["Vivian Wong", "Ginnie Okafor", "Felix Desimoni", "Bhavana Kunisetty"], []],
     [["Rose Click", "Tanuj Prajapati", "Armando Amigon", "Soha Rizvi"], ["Isabelle Williams", "Natalie Pellette", "Izzi Childers", "Shaun Kerry"]],
     [["Lila Frenkel", "Kourtney Kanja", "Bert Odinet", "Makayla Franco"], ["Sarah Kim", "Maggie Han", "Robert Heeter", "Eric Savarese", "Fred Bush", "Khondker Salim", "Ebube Ukabiala"]],
     [["Eric Torres", "Matthew Brun", "Emily Chang", "Nana Mensah-Bosu"], ["Ricardo Robles", "Adam Cohen", "Daniel Cho", "Bruce Xu", "Valerie Elizondo"]],
-    [["Shawn Zheng", "Hannah Meeks", "Lexi Ellerbe", "George Liu"], [""]],
+    [["Shawn Zheng", "Hannah Meeks", "Lexi Ellerbe", "George Liu"], []],
     //2019 O-Week Groups
     [["Matthew Brun", "Lisa Shi", "Hannah Vincent", "Andrew Abhikhaled"], ["Katie Bablak", "Kourtney Kanja", "Jesus Galvan", "Kieren Boyd", "Tara Simpson-Sullivan", "Roscoe Bussell", "Bill Qian", "Juan Rubio"]],
     [["Bert Odinet", "Bharathvi Selvan", "Vy Dang", "Shryans Goyal"], ["Andrew Li", "Arvind Ramesh", "Ginny Qian", "Divya Venkatesh", "Ella Hoyt", "Sophia Zhou"]],
     [["Amanda Yang", "Piper Harris", "Nikit Venishetty", "Steffi Halow"], ["CG Marinelli", "Sawyer Archer", "Janya Ram", "Joanna Wang", "Vinay Tummarakota", "Ryan Knightly", "Aurian Maleki"]],
-    [["Chris Lee", "Vikram Aggarwal", "Salonee Shah", "Alyson Resnick"], ["Amber Pitre", "Dani Knobloch", "Madhu Venkatesalu", "Andre Wasem", "Can Erdogan", "Truman Archer", "Adam Bobak"]],
+    [["Chris Lee", "Vikram Aggarwal", "Salonee Shah", "Alyson Resnick"], ["Amber Pitre", "Dani Knobloch", "Madhu Venkatesalu", "Can Erdogan", "Truman Archer", "Adam Bobak"]],
     [["Jae Kim", "Caitlin Simcox", "Jeel Mehta", "Nishant Pradhan"], ["Aaron Lin", "Sini Koivu", "Mabel Tang", "Marc Shen"]],
     [["Juan Serrano", "Rose Click", "Chris Villareal", "Sam Fowler"], ["Sara Mansfield", "Ashley Noh", "Sophia Prieto", "Jesus Galvan", "Brett Bussey"]],
-    [["Will Ledig", "Esther Choi", "Whitney Jin", "Brandon Chow"], ["Tanuj Prajapati", "Bianca Chen", "Ari Vilker", "Ginnie Okafor", "Alex Elkin", "Luna Cortelezzi", "Jonathan Sheng", "Amanda Dominguez"]]
+    [["Will Ledig", "Esther Choi", "Whitney Jin", "Brandon Chow"], ["Tanuj Prajapati", "Bianca Chen", "Ari Vilker", "Ginnie Okafor", "Alex Elkin", "Luna Cortelezzi", "Jonathan Sheng", "Amanda Dominguez"]],
+    [["Andreas Weyland", "Jade McAdams", "Bill Huynh", "Carrigan Hudgins"], ["Andre Wasem", "Oscar Reynozo", "Anthony Guzzo"]],
+    //2018 O-Week Groups
+    [[], ["Alp Yakici", "Shawn Zheng"]],
+    [[], ["Daniel Rothfusz", "Lauren Ivory", "Isabelle Scott"]],
+    [[], ["Caroline Koester", "Syed Shams", "Alex Gallegos", "Abby Webb", "Brandon Stanley", "Makayla Franco", "Wilson Wang"]]
 ]
 var parentsOf = {}
 //prints the parentsOf dictionary
@@ -346,6 +351,7 @@ function readMore() {
 <option value="Alan Tapper"></option>
 <option value="Albert Wan"></option>
 <option value="Alex Elkin"></option>
+<option value="Alex Gallegos"></option>
 <option value="Alex Holzbach"></option>
 <option value="Alison Qiu"></option>
 <option value="Alizay Azeem"></option>
@@ -360,6 +366,7 @@ function readMore() {
 <option value="Amy Lin"></option>
 <option value="Anagha Alapati"></option>
 <option value="Andre Wasem"></option>
+<option value="Andreas Weyland"></option>
 <option value="Andrew Abhikhaled"></option>
 <option value="Andrew Bare"></option>
 <option value="Andrew Li"></option>
@@ -389,9 +396,10 @@ function readMore() {
 <option value="Bert Odinet"></option>
 <option value="Bharathvi Selvan"></option>
 <option value="Bianca Chen"></option>
-<option value="Bill Nguyen"></option>
+<option value="Bill Huynh"></option>
 <option value="Bill Qian"></option>
 <option value="Brandon Chow"></option>
+<option value="Brandon Stanley"></option>
 <option value="Brett Bussey"></option>
 <option value="Brian Baskin"></option>
 <option value="Brian Lee"></option>
@@ -403,7 +411,9 @@ function readMore() {
 <option value="Can Erdogan"></option>
 <option value="Carlos Rivera"></option>
 <option value="Carly Ngo"></option>
+<option value="Caroline Koester"></option>
 <option value="Caroline Tanner"></option>
+<option value="Carrigan Hudgins"></option>
 <option value="Celeste Colato"></option>
 <option value="Charlotte Cohen"></option>
 <option value="Chloe Hur"></option>
@@ -474,6 +484,7 @@ function readMore() {
 <option value="Izzi Childers"></option>
 <option value="Izzi Karohl"></option>
 <option value="Jackie Wu"></option>
+<option value="Jade McAdams"></option>
 <option value="Jae Kim"></option>
 <option value="Jaime Tellez"></option>
 <option value="James Belanger"></option>
@@ -566,6 +577,7 @@ function readMore() {
 <option value="Nitin Reganti"></option>
 <option value="Noah Elzner"></option>
 <option value="Noah Hight"></option>
+<option value="Oscar Reynozo"></option>
 <option value="Pablo Solano"></option>
 <option value="Peter Reynolds"></option>
 <option value="Piper Harris"></option>
@@ -639,9 +651,10 @@ function readMore() {
 <option value="Whitney Jin"></option>
 <option value="Will Ledig"></option>
 <option value="Will Ramos"></option>
+<option value="Wilson Wang"></option>
 <option value="Wyatt Cho"></option>
 <option value="Yimo Wang"></option>
-<option value="Yuin Lu"></option>
+<option value="Yulin Lu"></option>
 <option value="Yuka Aoyama"></option>
 <option value="Zarek Lu"></option>
         </datalist>
