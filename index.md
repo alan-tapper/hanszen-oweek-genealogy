@@ -283,7 +283,7 @@ function printPath(source, name) {
         }
         toReturn += relText + "<br>"
     }
-    toReturn += "Path length: " + path.length
+    toReturn += "Path length: " + path.length - 1
     return toReturn
 }
 //finds the distance from source to name
