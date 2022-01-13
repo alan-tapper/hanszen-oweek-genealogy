@@ -4,10 +4,9 @@
 </head>
 <body>
 <p>This site enables you to find the distance and path between two people in the tree through O-Week families.
-<br><br>
-<p id="total-people-count">
 </p>
-<br><br>
+<p id="total-people-count"></p>
+<p>
 Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
 <br><br>
 Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.
@@ -32,7 +31,6 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
         <div>
             <button type="button" onclick="doStuff()">Submit</button>
             <script>
-                document.getElementById("total-people-count").innerHTML = "Currently there are " + getEveryone().length + " people in the network!"
                 function doStuff() {
                     var action = document.getElementById("action").value
                     var person1 = document.getElementById("person1name").value
@@ -363,12 +361,13 @@ function explore(person1) {
 }
 function readMore() {
     if (document.getElementById("readmore").innerHTML.length < 10) {
-      document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University.<br>This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree.<br><br><strong>Structure</strong><br><br>During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos).<br><br><strong>Features</strong><br><br>Find the path between any two people in the network<br><br>Explore the family around any specific person<br><br><br>If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
+      document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University.<br><br>The system was created by Alan Tapper in 2021, and includes Hanszenites who matriculated in or after 2018.<br><br>This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree.<br><br><strong>Structure</strong><br><br>During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos).<br><br><strong>Features</strong><br><br>Find the path between any two people in the network<br><br>Explore the family around any specific person<br><br><br>If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
       }
       else {
       	document.getElementById("readmore").innerHTML = ""
       }
 }
+document.getElementById("total-people-count").innerHTML = "Currently there are <strong>" + getEveryone().length + "</strong> people in the network!"
             </script>
         </div>
         <datalist id="people">
