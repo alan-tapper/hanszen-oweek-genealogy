@@ -79,6 +79,7 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
     [["Juan Serrano", "Rose Click", "Chris Villareal", "Sam Fowler"], ["Sara Mansfield", "Ashley Noh", "Sophia Prieto", "Jesus Galvan", "Brett Bussey"]],
     [["Will Ledig", "Esther Choi", "Whitney Jin", "Brandon Chow"], ["Tanuj Prajapati", "Bianca Chen", "Ari Vilker", "Ginnie Okafor", "Alex Elkin", "Luna Cortelezzi", "Jonathan Sheng", "Amanda Dominguez"]],
     [["Andreas Weyland", "Jade McAdams", "Bill Huynh", "Carrigan Hudgins"], ["Andre Wasem", "Oscar Reynozo", "Anthony Guzzo"]],
+    [["Anthony Ngyuen", "Chidera Ibezue", "Jeeyoon Kim", "Noah Masimore"], ["Hope Moustakakis", "Chloe Hur", "Kirk Lockhart", "Ibrahim Elsharkawy", "Jose Mata Esqueda", "Antonio Caballero", "Sydney Little", "Sean Gao"]],
     //2018 O-Week Groups
     [[], ["Alp Yakici", "Shawn Zheng"]],
     [[], ["Daniel Rothfusz", "Lauren Ivory", "Isabelle Scott"]],
@@ -402,7 +403,9 @@ function readMore() {
 <option value="Angelina Puente-Perez"></option>
 <option value="Anna Alves"></option>
 <option value="Anthony Guzzo"></option>
+<option value="Anthony Ngyuen"></option>
 <option value="Anthony Weeks"></option>
+<option value="Antonio Caballero"></option>
 <option value="Anushka Agrawal"></option>
 <option value="Ari Vilker"></option>
 <option value="Arielle Sanford"></option>
@@ -444,6 +447,7 @@ function readMore() {
 <option value="Carrigan Hudgins"></option>
 <option value="Celeste Colato"></option>
 <option value="Charlotte Cohen"></option>
+<option value="Chidera Ibezue"></option>
 <option value="Chloe Hur"></option>
 <option value="Chris Lee"></option>
 <option value="Chris Villareal"></option>
@@ -507,6 +511,7 @@ function readMore() {
 <option value="Hemish Thakkar"></option>
 <option value="Henry Cabrera"></option>
 <option value="Hope Moustakakis"></option>
+<option value="Ibrahim Elsharkawy"></option>
 <option value="Isabelle Scott"></option>
 <option value="Isabelle Williams"></option>
 <option value="Izzi Childers"></option>
@@ -535,6 +540,7 @@ function readMore() {
 <option value="Jordan Contreras"></option>
 <option value="Jose Acuna Valenzuela"></option>
 <option value="Jose Oviedo"></option>
+<option value="Jose Mata Esqueda"></option>
 <option value="Joseph Flores"></option>
 <option value="Joseph Liu"></option>
 <option value="Josh Yu"></option>
@@ -556,6 +562,7 @@ function readMore() {
 <option value="Khondker Salim"></option>
 <option value="Kian Robinson"></option>
 <option value="Kieren Boyd"></option>
+<option value="Kirk Lockhart"></option>
 <option value="Kourtney Kanja"></option>
 <option value="Laney Schewgman"></option>
 <option value="Laura Yee"></option>
@@ -605,6 +612,7 @@ function readMore() {
 <option value="Nitin Reganti"></option>
 <option value="Noah Elzner"></option>
 <option value="Noah Hight"></option>
+<option value="Noah Masimore"></option>
 <option value="Oscar Reynozo"></option>
 <option value="Pablo Solano"></option>
 <option value="Peter Reynolds"></option>
@@ -637,6 +645,7 @@ function readMore() {
 <option value="Sarah Kim"></option>
 <option value="Sawyer Archer"></option>
 <option value="Sean Cartwright"></option>
+<option value="Sean Gao"></option>
 <option value="Sebastian Molina"></option>
 <option value="Shaun Kerry"></option>
 <option value="Shawn Zheng"></option>
@@ -653,6 +662,7 @@ function readMore() {
 <option value="Stephen Xu"></option>
 <option value="Steven Feng"></option>
 <option value="Suraj Chandramouli"></option>
+<option value="Sydney Little"></option>
 <option value="Syed Shams"></option>
 <option value="Taeho Choe"></option>
 <option value="Tammy Feng"></option>
