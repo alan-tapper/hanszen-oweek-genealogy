@@ -5,6 +5,9 @@
 <body>
 <p>This site enables you to find the distance and path between two people in the tree through O-Week families.
 <br><br>
+<p id="total-people-count">
+</p>
+<br><br>
 Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
 <br><br>
 Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.
@@ -29,6 +32,7 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
         <div>
             <button type="button" onclick="doStuff()">Submit</button>
             <script>
+                document.getElementById("total-people-count").innerHTML = "Currently there are " + getEveryone().length + " people in the network!"
                 function doStuff() {
                     var action = document.getElementById("action").value
                     var person1 = document.getElementById("person1name").value
