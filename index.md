@@ -207,6 +207,29 @@ function avgDistance(source) {
     }
     return sum / people
 }
+//returns the person with the most immediate connections
+function getMostImmediateConnections() {
+    var num = 0
+    var person = ""
+    for (let source of getEveryone()) {
+        if (getImmediateFamily(source).length > num && source) {
+            person = source
+            num = getImmediateFamily(source).length
+        }
+    }
+return person
+//returns the person with the most descendants
+function getMostDescendants() {
+    var num = 0
+    var person = ""
+    for (let source of getEveryone()) {
+        if (getDescendants(source).length > num && source) {
+            person = source
+            num = getDescendants(source).length
+        }
+    }
+return person
+}
 //print functions
 //prints the immediate family of source
 function printImmediateFamily(source) {
@@ -364,7 +387,7 @@ function explore(person1) {
 }
 function readMore() {
     if (document.getElementById("readmore").innerHTML.length < 10) {
-      document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University.<br><br>The system was created by Alan Tapper in 2021, and includes Hanszenites who matriculated in or after 2018.<br><br>This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree.<br><br><strong>Structure</strong><br><br>During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos).<br><br><strong>Features</strong><br><br>Find the path between any two people in the network<br><br>Explore the family around any specific person<br><br><strong>Statistics</strong><br><br>Number of people in the network: " + getEveryone().length + "<br>Most immediate connections: " +  + "<br>Most descendants: " +  + "<br>Most connected person overall: " +  + "<br>College with the most co-advisors at Hanszen: " +  + "<br>College with the least co-advisors at Hanszen: " +  + "<br><br><br>If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
+      document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University.<br><br>The system was created by Alan Tapper in 2021, and includes Hanszenites who matriculated in or after 2018.<br><br>This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree.<br><br><strong>Structure</strong><br><br>During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos).<br><br><strong>Features</strong><br><br>Find the path between any two people in the network<br><br>Explore the family around any specific person<br><br><strong>Statistics</strong><br><br>Number of people in the network: " + getEveryone().length + "<br>Most immediate connections: " + getMostImmediateConnections() + "<br>Most descendants: " + getMostDescendants() + "<br><br><br>If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
       }
       else {
       	document.getElementById("readmore").innerHTML = ""

@@ -14,41 +14,44 @@ function doStuff() {
 }
 var data = [
 //2021 O-Week Groups
-[["Alan Tapper", "Chloe Hur", "Leigh Gabriely", "Matthew Zamarripa"], ["Connor Taylor", "Henry Cabrera", "Tony Tan", "Ray Xiang", "Max Kovalchick", "Katherine Jeng", "Yimo Wang", "Tanya Jain", "Gabrielle Allen", "Caroline Tanner"]],
-[["Katie Bablak", "Hope Moustakakis", "Anushka Agrawal", "John Cook"], ["Nitin Reganti", "Warren Rose", "Laura Yee", "Karen Marquez", "Adara Toran", "Aryana Suhartono", "Darius Huang", "Emerson Coronel", "Mark Lopatofsky", "Esha Patel"]],
-[["Marc Armena", "Grace Kneidel", "Khondker Salim", "Charlotte Cohen"], ["Natalie Byron", "Ava White", "Vy Luu", "Priya Tirumala", "David Kurp", "Daniel Stulski", "Taeho Choe", "Kausar Alkaderi", "Ai Bunchatheravate"]],
-[["Julia Englehardt", "Anthony Guzzo", "Corey Donovan", "Sini Koivu"], ["Emily Pena", "Ellie Cha", "Darcey Lonsdale", "Nayna Nambiar", "Sara Price", "Joseph Flores", "Sam Sarver", "Suraj Chandramouli", "Noah Hight"]],
-[["Gia Braddock", "Daniel Rothfusz", "Dylan DuCharme", "Mabel Tang"], ["Maddy Garrity", "Bella Bartos", "Adi Zytek", "Michelle Fox", "Yulin Lu", "Peter Reynolds", "Joseph Liu", "Liam Waite", "Ammar Siddiqi", "Brian Seo"]],
-[["Ben Murdoch", "Aaron Lin", "Sarah Kim", "Victoria Johns"], ["Crystal Unegbu", "Danika Li", "Daniela Covarrubias", "Lauren Hu", "Thara Venkateswaran", "Emery Engling", "Jonathan Seyoum", "Zarek Lu", "Arturo Rodriguez Lopez", "James Belanger"]],
-[["Sadie Siegel", "Madhu Venkatesalu", "Jarrett Prchal", "Arvind Ramesh"], ["Sarah Davidson", "Whitney Ball", "Jo Harikrishna", "Genesis Hahn", "Riya Pagilla", "Marcus Williams", "Lucas Newman", "Jordan Contreras", "Nikhil Samudrala", "Ken Chen"]],
+[["Alan Tapper", "Chloe Hur", "Leigh Gabriely", "Matthew Zamarripa (Baker)"], ["Connor Taylor", "Henry Cabrera", "Tony Tan", "Ray Xiang", "Max Kovalchick", "Katherine Jeng", "Yimo Wang", "Tanya Jain", "Gabrielle Allen", "Caroline Tanner"]],
+[["Katie Bablak", "Hope Moustakakis", "Anushka Agrawal", "John Cook (Will Rice)"], ["Nitin Reganti", "Warren Rose", "Laura Yee", "Karen Marquez", "Adara Toran", "Aryana Suhartono", "Darius Huang", "Emerson Coronel", "Mark Lopatofsky", "Esha Patel"]],
+[["Marc Armena", "Grace Kneidel (Brown)", "Khondker Salim", "Charlotte Cohen"], ["Natalie Byron", "Ava White", "Vy Luu", "Priya Tirumala", "David Kurp", "Daniel Stulski", "Taeho Choe", "Kausar Alkaderi", "Ai Bunchatheravate"]],
+[["Julia Englehardt (McMurtry)", "Anthony Guzzo", "Corey Donovan", "Sini Koivu"], ["Emily Pena", "Ellie Cha", "Darcey Lonsdale", "Nayna Nambiar", "Sara Price", "Joseph Flores", "Sam Sarver", "Suraj Chandramouli", "Noah Hight"]],
+[["Gia Braddock (Brown)", "Daniel Rothfusz", "Dylan DuCharme", "Mabel Tang"], ["Maddy Garrity", "Bella Bartos", "Adi Zytek", "Michelle Fox", "Yulin Lu", "Peter Reynolds", "Joseph Liu", "Liam Waite", "Ammar Siddiqi", "Brian Seo"]],
+[["Ben Murdoch (Lovett)", "Aaron Lin", "Sarah Kim", "Victoria Johns"], ["Crystal Unegbu", "Danika Li", "Daniela Covarrubias", "Lauren Hu", "Thara Venkateswaran", "Emery Engling", "Jonathan Seyoum", "Zarek Lu", "Arturo Rodriguez Lopez", "James Belanger"]],
+[["Sadie Siegel (Lovett)", "Madhu Venkatesalu", "Jarrett Prchal", "Arvind Ramesh"], ["Sarah Davidson", "Whitney Ball", "Jo Harikrishna", "Genesis Hahn", "Riya Pagilla", "Marcus Williams", "Lucas Newman", "Jordan Contreras", "Nikhil Samudrala", "Ken Chen"]],
 [["Temi Dada", "Alp Yakici", "Ridhi Gari", "Andrew Li"], ["Stephanie Agu", "Leora Maksoud", "Basma Bedawi", "Kaylah Patel", "Jiwon Han", "Brian Baskin", "Shihab Ahmed", "Kai Cowin", "Hari Gotluru", "Bill Nguyen"]],
-[["Praneel Joshi", "Amanda Mae Ashley", "Shawn Zheng", "Maanvi Thawani"], ["Hannah Son", "Priscilla Ibrahim", "Christina Wong", "Victoria Albanese", "Kenna Dixon", "Will Ramos", "Javi Milagro Caro", "Josh Yu", "Daniel Brown", "Melvin Zarghooni"]],
-[["Claire Xu", "Moses Glickman", "McKenna Tanner", "Carlos Rivera"], ["Claire Brix", "Azhariya Ellis", "Lily Remington", "Hannah Kim", "Christy Deng", "Stephen Xu", "Jay Folmar", "Dillon Akerman", "Jonah Lubin", "Wyatt Cho"]],
+[["Praneel Joshi (Lovett)", "Amanda Mae Ashley", "Shawn Zheng", "Maanvi Thawani"], ["Hannah Son", "Priscilla Ibrahim", "Christina Wong", "Victoria Albanese", "Kenna Dixon", "Will Ramos", "Javi Milagro Caro", "Josh Yu", "Daniel Brown", "Melvin Zarghooni"]],
+[["Claire Xu", "Moses Glickman (Martel)", "McKenna Tanner", "Carlos Rivera"], ["Claire Brix", "Azhariya Ellis", "Lily Remington", "Hannah Kim", "Christy Deng", "Stephen Xu", "Jay Folmar", "Dillon Akerman", "Jonah Lubin", "Wyatt Cho"]],
 [["Jackie Wu", "Sara Mansfield", "Isabelle Scott", "Jose Oviedo"], ["Lillian Sims", "Emily Wu", "Alison Qiu", "Celeste Colato", "Dylan Grant", "Byron Hart", "Pablo Solano", "Chuck Wells", "David Zhu"]],
-[["Christa Westheimer", "Valentina Osorio", "Bert Odinet", "Juan Rubio"], ["Angelina Puente-Perez", "Julia Hanson", "Laney Schewgman", "Anagha Alapati", "Michelle Pham", "Nathaniel Moriss", "Sebastian Molina", "Ben Montag", "Daniel Zhao"]],
+[["Christa Westheimer (McMurtry)", "Valentina Osorio", "Bert Odinet", "Juan Rubio"], ["Angelina Puente-Perez", "Julia Hanson", "Laney Schewgman", "Anagha Alapati", "Michelle Pham", "Nathaniel Moriss", "Sebastian Molina", "Ben Montag", "Daniel Zhao"]],
 //2020 O-Week Groups
-[["Alp Yakici", "Amanda Mae Ashley", "Cole Ponsi", "Tessa Schreiber"], ["Alan Tapper", "Brian Lee", "Marc Armena", "Noah Elzner", "Astra Burke", "Reece Lusich", "Valentina Osorio", "Hemish Thakkar", "Jun-Ha Jung"]],
-[["Mason Reece", "Radhika Patel", "Alizay Azeem", "Abby Webb"], ["Kian Robinson", "Alex Holzbach", "Anushka Agrawal", "Ella Price", "Tammy Feng", "Kelly Shang", "Yajing Hu", "Nora Han"]],
-[["Syed Shams", "Daniel Wang", "Sara Mansfield", "Cynthia Chen"], ["Yuka Aoyama", "McKenna Tanner", "Arielle Sanford", "Maanvi Thawani", "Corey Donovan", "Jason Nguyen", "Adam He"]],
-[["Amy Lin", "Michelle Martinez", "Izzi Karohl", "Daniel Rothfusz"], ["Arnav Burudgunte", "Sean Cartwright", "Anthony Weeks", "Anna Alves", "Mainavi Reddy", "Shreya Jindal", "Amanda Hogan", "Esau Guajardo"]],
-[["Tre Henson", "Dani Knobloch", "Saniya Gayake", "Ben Burstain"], ["Spencer Darwall", "Ryan Mbuashu-Ndip", "Ridhi Gari", "Makayla Brown", "Cuiyuanxiu Chen", "Benjamin Greaves", "William Zhang", "Amey Maley"]],
-[["Piper Harris", "Anthony Guzzo", "Steven Feng", "Sanjana Krishnan"], ["Andrew Bare", "Jaime Tellez", "Dylan DuCharme", "Colin Lawrence", "Margaret Li", "Elena Carmichael", "Carly Ngo", "Jessica Suh"]],
-[["Juan Serrano", "Lauren Ivory", "Julie Street", "Bianca Chen"], ["Jessica Opsahl-Ong", "Andrew Murray", "Ryan Babe", "Albert Wan", "Tiffany Tang", "Santi Parra-Vargas", "Jose Acuna Valenzuela", "Kaylah Cantu", "Chuk Uzowihe"]],
-[["Vivian Wong", "Ginnie Okafor", "Felix Desimoni", "Bhavana Kunisetty"], ["Evan Stegall", "Mimi Filkin", "Sarah Kutz", "Andrew Awe", "Jalen Reeves", "Leo Oh"]],
-[["Rose Click", "Tanuj Prajapati", "Armando Amigon", "Soha Rizvi"], ["Isabelle Williams", "Natalie Pellette", "Izzi Childers", "Shaun Kerry", "Jose Oviedo", "Rahul Kumar", "Tyler Braito"]],
-[["Lila Frenkel", "Kourtney Kanja", "Bert Odinet", "Makayla Franco"], ["Sarah Kim", "Maggie Han", "Seniha Elick", "Robert Heeter", "Eric Savarese", "Fred Bush", "Khondker Salim", "Ebube Ukabiala"]],
-[["Eric Torres", "Matthew Brun", "Emily Chang", "Nana Mensah-Bosu"], ["Ricardo Robles", "Adam Cohen", "Daniel Cho", "Bruce Xu", "Valerie Elizondo", "Rian Philip", "Isha Khapre", "Hannah Kang"]],
-[["Shawn Zheng", "Hannah Meeks", "Lexi Ellerbe", "George Liu"], ["Valerie Swe", "Mallory Tucker", "Sena Ahadzie", "Lily Primus", "Rick Castellon", "Josh Fang", "William Burbank", "Riley Barker"]],
+[["Alp Yakici", "Amanda Mae Ashley", "Cole Ponsi (Will Rice)", "Tessa Schreiber"], ["Alan Tapper", "Brian Lee", "Marc Armena", "Noah Elzner", "Astra Burke", "Reece Lusich", "Valentina Osorio", "Hemish Thakkar", "Jun-Ha Jung"]],
+[["Mason Reece", "Radhika Patel", "Alizay Azeem (Wiess)", "Abby Webb"], ["Kian Robinson", "Alex Holzbach", "Anushka Agrawal", "Ella Price", "Tammy Feng", "Kelly Shang", "Yajing Hu", "Nora Han"]],
+[["Syed Shams", "Daniel Wang", "Sara Mansfield", "Cynthia Chen (Martel)"], ["Yuka Aoyama", "McKenna Tanner", "Arielle Sanford", "Maanvi Thawani", "Corey Donovan", "Jason Nguyen", "Adam He"]],
+[["Amy Lin", "Michelle Martinez", "Izzie Karohl (Will Rice)", "Daniel Rothfusz"], ["Arnav Burudgunte", "Sean Cartwright", "Anthony Weeks", "Anna Alves", "Mainavi Reddy", "Shreya Jindal", "Amanda Hogan", "Esau Guajardo"]],
+[["Tre Henson", "Dani Knobloch", "Saniya Gayake (Baker)", "Ben Burstain"], ["Spencer Darwall", "Ryan Mbuashu-Ndip", "Ridhi Gari", "Makayla Brown", "Cuiyuanxiu Chen", "Benjamin Greaves", "William Zhang", "Amey Maley"]],
+[["Piper Harris", "Anthony Guzzo", "Steven Feng (McMurtry)", "Sanjana Krishnan"], ["Andrew Bare", "Jaime Tellez", "Dylan DuCharme", "Colin Lawrence", "Margaret Li", "Elena Carmichael", "Carly Ngo", "Jessica Suh"]],
+[["Juan Serrano", "Lauren Ivory", "Julie Street (Jones)", "Bianca Chen"], ["Jessica Opsahl-Ong", "Andrew Murray", "Ryan Babe", "Albert Wan", "Tiffany Tang", "Santi Parra-Vargas", "Jose Acuna Valenzuela", "Kaylah Cantu", "Chuk Uzowihe"]],
+[["Vivian Wong (Duncan)", "Ginnie Okafor", "Felix Desimoni", "Bhavana Kunisetty"], ["Evan Stegall", "Mimi Filkin", "Sarah Kutz", "Andrew Awe", "Jalen Reeves", "Leo Oh"]],
+[["Rose Click", "Tanuj Prajapati", "Armando Amigon (Lovett)", "Soha Rizvi"], ["Isabelle Williams", "Natalie Pellette", "Izzi Childers", "Shaun Kerry", "Jose Oviedo", "Rahul Kumar", "Tyler Braito"]],
+[["Lila Frenkel (Duncan)", "Kourtney Kanja", "Bert Odinet", "Makayla Franco"], ["Sarah Kim", "Maggie Han", "Seniha Elick", "Robert Heeter", "Eric Savarese", "Fred Bush", "Khondker Salim", "Ebube Ukabiala"]],
+[["Eric Torres (Wiess)", "Matthew Brun", "Emily Chang", "Nana Mensah-Bosu"], ["Ricardo Robles", "Adam Cohen", "Daniel Cho", "Bruce Xu", "Valerie Elizondo", "Rian Philip", "Isha Khapre", "Hannah Kang"]],
+[["Shawn Zheng", "Hannah Meeks", "Lexi Ellerbe", "George Liu (Will Rice)"], ["Valerie Swe", "Mallory Tucker", "Sena Ahadzie", "Lily Primus", "Rick Castellon", "Josh Fang", "William Burbank", "Riley Barker"]],
 //2019 O-Week Groups
-[["Matthew Brun", "Lisa Shi", "Hannah Vincent", "Andrew Abhikhaled"], ["Katie Bablak", "Kourtney Kanja", "Jesus Galvan", "Kieren Boyd", "Tara Simpson-Sullivan", "Roscoe Bussell", "Bill Qian", "Juan Rubio"]],
-[["Bert Odinet", "Bharathvi Selvan", "Vy Dang", "Shryans Goyal"], ["Andrew Li", "Arvind Ramesh", "Ginny Qian", "Divya Venkatesh", "Ella Hoyt", "Sophia Zhou"]],
-[["Amanda Yang", "Piper Harris", "Nikit Venishetty", "Steffi Halow"], ["CG Marinelli", "Sawyer Archer", "Janya Ram", "Joanna Wang", "Vinay Tummarakota", "Ryan Knightly", "Aurian Maleki"]],
-[["Chris Lee", "Vikram Aggarwal", "Salonee Shah", "Alyson Resnick"], ["Amber Pitre", "Dani Knobloch", "Madhu Venkatesalu", "Can Erdogan", "Truman Archer", "Adam Bobak"]],
-[["Jae Kim", "Caitlin Simcox", "Jeel Mehta", "Nishant Pradhan"], ["Aaron Lin", "Sini Koivu", "Mabel Tang", "Marc Shen"]],
-[["Juan Serrano", "Rose Click", "Chris Villareal", "Sam Fowler"], ["Sara Mansfield", "Ashley Noh", "Sophia Prieto", "Jesus Galvan", "Brett Bussey"]],
-[["Will Ledig", "Esther Choi", "Whitney Jin", "Brandon Chow"], ["Tanuj Prajapati", "Bianca Chen", "Ari Vilker", "Ginnie Okafor", "Alex Elkin", "Luna Cortelezzi", "Jonathan Sheng", "Amanda Dominguez"]],
-[["Andreas Weyland", "Jade McAdams", "Bill Huynh", "Carrigan Hudgins"], ["Andre Wasem", "Oscar Reynozo", "Anthony Guzzo"]],
-[["Anthony Ngyuen", "Chidera Ibezue", "Jeeyoon Kim", "Noah Masimore"], ["Hope Moustakakis", "Chloe Hur", "Kirk Lockhart", "Ibrahim Elsharkawy", "Jose Mata Esqueda", "Antonio Caballero", "Sydney Little", "Sean Gao"]],
+[["Matthew Brun", "Lisa Shi", "Hannah Vincent", "Andrew Abhikhaled (Jones)"], ["Katie Bablak", "Kourtney Kanja", "Jesus Galvan", "Kieren Boyd", "Tara Simpson-Sullivan", "Roscoe Bussell", "Bill Qian", "Juan Rubio"]],
+[["Bert Odinet", "Bharathvi Selvan", "Vy Dang", "Shryans Goyal (Will Rice)"], ["Andrew Li", "Arvind Ramesh", "Ginny Qian", "Divya Venkatesh", "Ella Hoyt", "Sophia Zhou"]],
+[["Amanda Yang", "Piper Harris", "Nikit Venishetty (Will Rice)", "Steffi Halow"], ["CG Marinelli", "Sawyer Archer", "Janya Ram", "Joanna Wang", "Vinay Tummarakota", "Ryan Knightly", "Aurian Maleki"]],
+[["Chris Lee", "Vikram Aggarwal", "Salonee Shah", "Alyson Resnick (McMurtry)"], ["Amber Pitre", "Dani Knobloch", "Madhu Venkatesalu", "Can Erdogan", "Truman Archer", "Adam Bobak"]],
+[["Jae Kim", "Caitlin Simcox", "Jeel Mehta (Wiess)", "Nishant Pradhan (Martel)"], ["Aaron Lin", "Sini Koivu", "Mabel Tang", "Marc Shen"]],
+[["Juan Serrano", "Rose Click", "Chris Villareal", "Sam Fowler (McMurtry)"], ["Sara Mansfield", "Ashley Noh", "Sophia Prieto", "Jesus Galvan", "Brett Bussey"]],
+[["Will Ledig", "Esther Choi", "Whitney Jin", "Brandon Chow (Will Rice)"], ["Tanuj Prajapati", "Bianca Chen", "Ari Vilker", "Ginnie Okafor", "Alex Elkin", "Luna Cortelezzi", "Jonathan Sheng", "Amanda Dominguez"]],
+[["Andreas Weyland", "Jade McAdams", "Bill Huynh", "Carrigan Hudgins (Sid)"], ["Andre Wasem", "Oscar Reynozo", "Anthony Guzzo"]],
+[["Anthony Ngyuen", "Chidera Ibezue", "Jeeyoon Kim", "Noah Masimore (Duncan)"], ["Hope Moustakakis", "Chloe Hur", "Kirk Lockhart", "Ibrahim Elsharkawy", "Jose Mata Esqueda", "Antonio Caballero", "Sydney Little", "Sean Gao"]],
+[["Karen Qi", "Hociel Landa", "Amanda Lopatin", "Nathaniel Wu (Wiess)"], []],
+[["Savannah Kuchar", "Mason Reece", "Victor Nguyen (Lovett)", "Natalie Gault"], []],
+[["Morgan Seay", "Saipriya Lammata (Jones)", "Jordan Pflum", "Vickie Lu"], []],
 //2018 O-Week Groups
 [[], ["Alp Yakici", "Shawn Zheng"]],
 [[], ["Daniel Rothfusz", "Lauren Ivory", "Isabelle Scott"]],
@@ -170,6 +173,30 @@ sum += findDistance(source, person)
 people += 1
 }
 return sum / people
+}
+//returns the person with the most immediate connections
+function getMostImmediateConnections() {
+var num = 0
+var person = ""
+for (let source of getEveryone()) {
+if (getImmediateFamily(source).length > num && source) {
+person = source
+num = getImmediateFamily(source).length
+}
+}
+return person
+}
+//returns the person with the most descendants
+function getMostDescendants() {
+    var num = 0
+var person = ""
+for (let source of getEveryone()) {
+if (getDescendants(source).length > num && source) {
+person = source
+num = getDescendants(source).length
+}
+}
+return person
 }
 //print functions
 //prints the immediate family of source
@@ -326,18 +353,11 @@ toReturn += "<br>" + co
 }
 return toReturn
 }
-function readMore() {
-if (document.getElementById("readmore").innerHTML.length < 10) {
-document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University.<br><br>The system was created by Alan Tapper in 2021, and includes Hanszenites who matriculated in or after 2018.<br><br>This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree.<br><br><strong>Structure</strong><br><br>During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos).<br><br><strong>Features</strong><br><br>Find the path between any two people in the network<br><br>Explore the family around any specific person<br><br><br>If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
-}
-else {
-document.getElementById("readmore").innerHTML = ""
-}
-}
-//document.getElementById("total-people-count").innerHTML = "Currently there are <strong>" + getEveryone().length + "</strong> people in the network!"
 
 var e = getEveryone().sort()
 //console.log(e)
 for (let person of e) {
-    console.log("<option value=\"" + person + "\"></option>")
+    //console.log("<option value=\"" + person + "\"></option>")
 }
+
+console.log(getMostDescendants())
