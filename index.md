@@ -76,9 +76,9 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
     [["Matthew Brun", "Lisa Shi", "Hannah Vincent", "Andrew Abhikhaled (Jones)"], ["Katie Bablak", "Kourtney Kanja", "Jesus Galvan", "Kieren Boyd", "Tara Simpson-Sullivan", "Roscoe Bussell", "Bill Qian", "Juan Rubio"]],
     [["Bert Odinet", "Bharathvi Selvan", "Vy Dang", "Shryans Goyal (Will Rice)"], ["Andrew Li", "Arvind Ramesh", "Ginny Qian", "Divya Venkatesh", "Ella Hoyt", "Sophia Zhou"]],
     [["Amanda Yang", "Piper Harris", "Nikit Venishetty (Will Rice)", "Steffi Halow"], ["CG Marinelli", "Sawyer Archer", "Janya Ram", "Joanna Wang", "Vinay Tummarakota", "Ryan Knightly", "Aurian Maleki"]],
-    [["Chris Lee", "Vikram Aggarwal", "Salonee Shah", "Alyson Resnick (McMurtry)"], ["Amber Pitre", "Dani Knobloch", "Madhu Venkatesalu", "Can Erdogan", "Truman Archer", "Adam Bobak"]],
+    [["Chris Lee", "Vikram Aggarwal", "Salonee Shah", "Alyson Resnick (McMurtry)"], ["Amber Pitre", "Dani Knobloch", "Madhu Venkatesalu", "Can Erdogan", "Truman Archer", "Adam Bobak", "Sai Govindu", "Zach Crisler"]],
     [["Jae Kim", "Caitlin Simcox", "Jeel Mehta (Wiess)", "Nishant Pradhan (Martel)"], ["Aaron Lin", "Sini Koivu", "Mabel Tang", "Marc Shen"]],
-    [["Juan Serrano", "Rose Click", "Chris Villareal", "Sam Fowler (McMurtry)"], ["Sara Mansfield", "Ashley Noh", "Sophia Prieto", "Jesus Galvan", "Brett Bussey"]],
+    [["Juan Serrano", "Rose Click", "Chris Villareal", "Sam Fowler (McMurtry)"], ["Sara Mansfield", "Ashley Noh", "Sophia Prieto", "Jesus Galvan", "Brett Bussey", "Andrea Rivas", "Jason Zhu", "Ethan Levin"]],
     [["Will Ledig", "Esther Choi", "Whitney Jin", "Brandon Chow (Will Rice)"], ["Tanuj Prajapati", "Bianca Chen", "Ari Vilker", "Ginnie Okafor", "Alex Elkin", "Luna Cortelezzi", "Jonathan Sheng", "Amanda Dominguez"]],
     [["Andreas Weyland", "Jade McAdams", "Bill Huynh", "Carrigan Hudgins (Sid)"], ["Andre Wasem", "Oscar Reynozo", "Anthony Guzzo"]],
     [["Anthony Ngyuen", "Chidera Ibezue", "Jeeyoon Kim", "Noah Masimore (Duncan)"], ["Hope Moustakakis", "Chloe Hur", "Kirk Lockhart", "Ibrahim Elsharkawy", "Jose Mata Esqueda", "Antonio Caballero", "Sydney Little", "Sean Gao"]],
@@ -86,7 +86,7 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
     [["Savannah Kuchar", "Mason Reece", "Victor Nguyen (Lovett)", "Natalie Gault"], []],
     [["Morgan Seay", "Saipriya Lammata (Jones)", "Jordan Pflum", "Vickie Lu"], []],
     //2018 O-Week Groups
-    [[], ["Alp Yakici", "Shawn Zheng"]],
+    [["Valerie Du", "Bill Huynh", "Sabrina Hernandez (Jones)", "Natalie Gault"], ["Alp Yakici", "Shawn Zheng", "Annie Nguyen", "Ben Glotzer", "Mattie Meacham", "Meerae Kim", "Oscar Soto"]],
     [[], ["Daniel Rothfusz", "Lauren Ivory", "Isabelle Scott"]],
     [[], ["Caroline Koester", "Syed Shams", "Alex Gallegos", "Abby Webb", "Brandon Stanley", "Makayla Franco", "Wilson Wang"]]
 ]
@@ -427,6 +427,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Amy Lin"></option>
 <option value="Anagha Alapati"></option>
 <option value="Andre Wasem"></option>
+<option value="Andrea Rivas"></option>
 <option value="Andreas Weyland"></option>
 <option value="Andrew Abhikhaled (Jones)"></option>
 <option value="Andrew Awe"></option>
@@ -435,6 +436,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Andrew Murray"></option>
 <option value="Angelina Puente-Perez"></option>
 <option value="Anna Alves"></option>
+<option value="Annie Nguyen"></option>
 <option value="Anthony Guzzo"></option>
 <option value="Anthony Ngyuen"></option>
 <option value="Anthony Weeks"></option>
@@ -455,6 +457,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Basma Bedawi"></option>
 <option value="Bella Bartos"></option>
 <option value="Ben Burstain"></option>
+<option value="Ben Glotzer"></option>
 <option value="Ben Montag"></option>
 <option value="Ben Murdoch (Lovett)"></option>
 <option value="Benjamin Greaves"></option>
@@ -533,6 +536,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Esau Guajardo"></option>
 <option value="Esha Patel"></option>
 <option value="Esther Choi"></option>
+<option value="Ethan Levin"></option>
 <option value="Evan Stegall"></option>
 <option value="Felix Desimoni"></option>
 <option value="Fred Bush"></option>
@@ -568,6 +572,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Janya Ram"></option>
 <option value="Jarrett Prchal"></option>
 <option value="Jason Nguyen"></option>
+<option value="Jason Zhu"></option>
 <option value="Javi Milagro Caro"></option>
 <option value="Jay Folmar"></option>
 <option value="Jeel Mehta (Wiess)"></option>
@@ -646,8 +651,10 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Mason Reece"></option>
 <option value="Matthew Brun"></option>
 <option value="Matthew Zamarripa (Baker)"></option>
+<option value="Mattie Meacham"></option>
 <option value="Max Kovalchick"></option>
 <option value="McKenna Tanner"></option>
+<option value="Meerae Kim"></option>
 <option value="Melvin Zarghooni"></option>
 <option value="Michelle Fox"></option>
 <option value="Michelle Martinez"></option>
@@ -671,6 +678,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Noah Masimore (Duncan)"></option>
 <option value="Nora Han"></option>
 <option value="Oscar Reynozo"></option>
+<option value="Oscar Soto"></option>
 <option value="Pablo Solano"></option>
 <option value="Peter Reynolds"></option>
 <option value="Piper Harris"></option>
@@ -693,7 +701,9 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Ryan Babe"></option>
 <option value="Ryan Knightly"></option>
 <option value="Ryan Mbuashu-Ndip"></option>
+<option value="Sabrina Hernandez (Jones)"></option>
 <option value="Sadie Siegel (Lovett)"></option>
+<option value="Sai Govindu"></option>
 <option value="Saipriya Lammata (Jones)"></option>
 <option value="Salonee Shah"></option>
 <option value="Sam Fowler (McMurtry)"></option>
@@ -744,6 +754,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Truman Archer"></option>
 <option value="Tyler Braito"></option>
 <option value="Valentina Osorio"></option>
+<option value="Valerie Du"></option>
 <option value="Valerie Elizondo"></option>
 <option value="Valerie Swe"></option>
 <option value="Vickie Lu"></option>
@@ -768,6 +779,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Yimo Wang"></option>
 <option value="Yuka Aoyama"></option>
 <option value="Yulin Lu"></option>
+<option value="Zach Crisler"></option>
 <option value="Zarek Lu"></option>
 <option value="undefined"></option>
         </datalist>
