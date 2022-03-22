@@ -83,12 +83,13 @@ Explore Tree: Displays the immediate family of Person 1. Click on other people t
     [["Andreas Weyland", "Jade McAdams", "Bill Huynh", "Carrigan Hudgins (Sid)"], ["Andre Wasem", "Oscar Reynozo", "Anthony Guzzo"]],
     [["Anthony Ngyuen", "Chidera Ibezue", "Jeeyoon Kim", "Noah Masimore (Duncan)"], ["Hope Moustakakis", "Chloe Hur", "Kirk Lockhart", "Ibrahim Elsharkawy", "Jose Mata Esqueda", "Antonio Caballero", "Sydney Little", "Sean Gao"]],
     [["Karen Qi", "Hociel Landa", "Amanda Lopatin", "Nathaniel Wu (Wiess)"], []],
-    [["Savannah Kuchar", "Mason Reece", "Victor Nguyen (Lovett)", "Natalie Gault"], []],
+    [["Savannah Kuchar", "Mason Reece", "Victor Nguyen (Lovett)", "Natalie Gault"], ["Zach Rewolinski", "Lara Lin", "Daniel Schrager", "Grace Stewart"]],
     [["Morgan Seay", "Saipriya Lammata (Jones)", "Jordan Pflum", "Vickie Lu"], []],
     //2018 O-Week Groups
     [["Valerie Du", "Bill Huynh", "Sabrina Hernandez (Jones)", "Natalie Gault"], ["Alp Yakici", "Shawn Zheng", "Annie Nguyen", "Ben Glotzer", "Mattie Meacham", "Meerae Kim", "Oscar Soto"]],
     [[], ["Daniel Rothfusz", "Lauren Ivory", "Isabelle Scott"]],
     [[], ["Caroline Koester", "Syed Shams", "Alex Gallegos", "Abby Webb", "Brandon Stanley", "Makayla Franco", "Wilson Wang"]]
+    [["Amanda Yang", "Q Tabarestani"], ["Mason Reece", "Morgan Seay", "Lisa Shi", "Jae Kim", "Min Kang", "Jacob Doddridge", "Paris Fox", "Lucas Lemonholm"]],
 ]
 var parentsOf = {}
 //prints the parentsOf dictionary
@@ -508,6 +509,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Daniel Brown"></option>
 <option value="Daniel Cho"></option>
 <option value="Daniel Rothfusz"></option>
+<option value="Daniel Schrager"></option>
 <option value="Daniel Stulski"></option>
 <option value="Daniel Wang"></option>
 <option value="Daniel Zhao"></option>
@@ -547,6 +549,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Ginnie Okafor"></option>
 <option value="Ginny Qian"></option>
 <option value="Grace Kneidel (Brown)"></option>
+<option value="Grace Stewart"></option>
 <option value="Hannah Kang"></option>
 <option value="Hannah Kim"></option>
 <option value="Hannah Meeks"></option>
@@ -564,6 +567,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Izzi Childers"></option>
 <option value="Izzie Karohl (Will Rice)"></option>
 <option value="Jackie Wu"></option>
+<option value="Jacob Doddridge"></option>
 <option value="Jade McAdams"></option>
 <option value="Jae Kim"></option>
 <option value="Jaime Tellez"></option>
@@ -619,6 +623,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Kirk Lockhart"></option>
 <option value="Kourtney Kanja"></option>
 <option value="Laney Schewgman"></option>
+<option value="Lara Lin"></option>
 <option value="Laura Yee"></option>
 <option value="Lauren Hu"></option>
 <option value="Lauren Ivory"></option>
@@ -632,6 +637,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Lily Primus"></option>
 <option value="Lily Remington"></option>
 <option value="Lisa Shi"></option>
+<option value="Lucas Lemonholm"></option>
 <option value="Lucas Newman"></option>
 <option value="Luna Cortelezzi"></option>
 <option value="Maanvi Thawani"></option>
@@ -660,6 +666,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Michelle Martinez"></option>
 <option value="Michelle Pham"></option>
 <option value="Mimi Filkin"></option>
+<option value="Min Kang"></option>
 <option value="Morgan Seay"></option>
 <option value="Moses Glickman (Martel)"></option>
 <option value="Nana Mensah-Bosu"></option>
@@ -680,11 +687,13 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Oscar Reynozo"></option>
 <option value="Oscar Soto"></option>
 <option value="Pablo Solano"></option>
+<option value="Paris Fox"></option>
 <option value="Peter Reynolds"></option>
 <option value="Piper Harris"></option>
 <option value="Praneel Joshi (Lovett)"></option>
 <option value="Priscilla Ibrahim"></option>
 <option value="Priya Tirumala"></option>
+<option value="Q Tabarestani"></option>
 <option value="Radhika Patel"></option>
 <option value="Rahul Kumar"></option>
 <option value="Ray Xiang"></option>
@@ -780,6 +789,7 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
 <option value="Yuka Aoyama"></option>
 <option value="Yulin Lu"></option>
 <option value="Zach Crisler"></option>
+<option value="Zach Rewolinski"></option>
 <option value="Zarek Lu"></option>
 <option value="undefined"></option>
         </datalist>
